@@ -6,6 +6,7 @@
 :root{
     --blue:rgb(48,97,224) ;
     --white: rgb(255,255.255);
+    --lightblack: rgb(34,39,42);
 }
 
 /* generics */
@@ -36,6 +37,9 @@ body{
 
 .w-40{
     width:40%;
+}
+.w-70{
+    width: 70%;
 }
 .d-flex{
     display: flex;
@@ -173,3 +177,78 @@ section.bg-white,section.bg-gray{
     margin-top: 100px;
     margin-bottom: 100px;
 } 
+
+/* Footer */
+
+footer{
+    background-color: var(--lightblack);
+    min-height: 300px;
+    margin-top: -100px;
+}
+.d-flex.top-footer{
+    margin-top: 50px;
+    justify-content: space-between;
+    
+
+}
+
+.motto{
+    margin-right: 50px;
+}
+
+li{
+    color: #fff;
+    list-style-type: none;
+}
+
+.pie-di-pagina{
+    border-bottom: solid 1px #4B5882;
+    justify-content: space-between;
+}
+
+div.motto > h2{
+    color:  #7289DA;
+}
+
+.flag{
+    
+    font-size: 50px;
+}
+
+.language{
+    line-height: 100%;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 20px;
+}
+
+.icons{
+    padding-top: 20px;
+    justify-content: space-between;
+    font-size: 30px;
+    display: inline-block;
+    color: #fff;
+}
+li:first-child {
+    font-size: 22px;
+    color: #7289DA;
+}
+
+ul{
+    line-height: 30px;
+}
+
+.bot-footer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    min-width: 100px;
+    color: #fff;
+    display: inline-block;
+    background-color:#7289DA;
+    border-radius: 30px;
+}
