@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --blue:rgb(48,97,224) ;
+    --white: rgb(255,255.255);
+}
+
+/* generics */
+/* Utils */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w-25{
+    width:25%;
+}
+
+.w-50{
+    width:50%;
+}
+
+.w-30{
+    width:30%;
+}
+
+.w-60{
+    width:60%;
+}
+
+.w-40{
+    width:40%;
+}
+.d-flex{
+    display: flex;
+}
+
+
+
+
+/* Header */
+header{
+    color: #fff;
+    background-color: var(--blue);
+}
+.nav-bar{
+    height: 80px;
+    align-items: center;
+
+}
+.nav-menu{
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+.log-in{
+    text-align: end;
+}
+div .log-in-cell{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 20px;
+    background-color: #fff;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    
+}
+
