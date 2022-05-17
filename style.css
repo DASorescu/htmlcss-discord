@@ -45,6 +45,17 @@ body{
     display: inline-block;
 }
 
+.bg-white{
+    background-color: #fff;
+}
+.bg-gray{
+    background-color: lightgrey;
+}
+
+.p-70{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
 
 
@@ -90,12 +101,15 @@ div .log-in-cell{
 }
 
 .content {
-    padding-top: 100px ;
-    text-align: center;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
     margin: 0% auto;
     
 }
 h1{
+    font-size: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -116,3 +130,7 @@ background-color: #22272A;
 border-radius: 50px;
 }
 
+.group-col{
+   
+    text-align: end;
+}
